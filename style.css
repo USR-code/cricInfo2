@@ -1,0 +1,124 @@
+#navbar {
+  display: flex;
+  background-color: rgb(3 152 220);
+  height: 30px;
+  top: 0;
+  /* position:sticky; */
+  z-index: 3;
+  color: white;
+}
+
+#navbar > div {
+  padding: 8px;
+  margin-left: 40px;
+}
+
+#boxes {
+  background-color: rgb(3 152 220);
+  height: 160px;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  /* position:sticky; */
+  z-index: 3;
+  top: 30px;
+}
+
+#box-1 {
+  margin-left: 40px;
+  border-radius: 10px;
+  background-color: white;
+  width: 25%;
+  height: 135px;
+  cursor: pointer;
+}
+
+#matchdelayed {
+  padding-top: 6px;
+}
+
+#match {
+  color: orange;
+  padding: 6px;
+}
+
+#child-1 {
+  display: flex;
+  margin-left: 4px;
+}
+
+#afg {
+  margin-left: 6px;
+}
+
+#child-2 {
+  display: flex;
+  margin-left: 4px;
+}
+
+#nz {
+  margin-left: 6px;
+}
+
+#line{
+  color:yellow;
+  border: 0;
+  background-color:yellow;
+  height: 1px;
+  margin:6px
+  
+}
+
+#svs {
+  display: flex;
+  padding: 2px;
+  font-size: small;
+}
+
+#svs > div {
+  padding: 2px;
+  margin-left: 25px;
+}
+
+#svs > div:hover {
+  text-decoration: underline;
+}
+
+#navbar-1 {
+  background-color: blue;
+  height: 50px;
+  display: flex;
+  position: sticky;
+  z-index: 3;
+  top: 0px;
+}
+
+#navbar-1 > div {
+  padding: 8px;
+  margin-left: 40px;
+}
+
+#logo-img {
+  cursor: pointer;
+}
+
+.livescores {
+  cursor: pointer;
+  color: white;
+  margin-top: 6px;
+}
+
+.livescores:hover {
+  background-color: rgb(3 152 220);
+}
+
+#usr {
+  height: 300vh;
+  background-color: grey;
+  text-align:Center;
+  padding:10px;
+  color:white;
+  font-size:100px;
+  justify-content:space-between;
+  align-items:center
+}
